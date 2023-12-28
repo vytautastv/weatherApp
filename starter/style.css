@@ -1,0 +1,103 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: black;
+}
+
+/* ----- header & button ----- */
+header,
+.forecast-header {
+  font-family: "Secular One", sans-serif;
+  line-height: 200%;
+}
+
+header,
+#search-button,
+.forecast-header {
+  background-image: linear-gradient(
+    90deg,
+  );
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------ left side: search history ----- */
+.search-history .searched-city-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+.searched-city-btn:hover {
+  background-color: grey;
+  -webkit-animation: ani 0.7s steps(29) forwards;
+  animation: ani 0.7s steps(29) forwards;
+}
+
+/* ----- right side: current weather display ----- */
+#current-weather {
+  line-height: 200%;
+}
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+#current-weather-icon,
+#forecast-weather-icon {
+  width: 100px;
+  height: 100px;
+  margin: -20px;
+}
+
+.weather-conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ----- right side: 5 day forecast ----- */
+
+.forecast-five-day {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  justify-content: space-around;
+  padding: 1%;
+  margin: 1%;
+  background: linear-gradient(
+    to right,
+  );
+  border-radius: 10px;
+}
+
+.forecast-five-day {
+  box-shadow: 
+    rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.forecast-five-day li {
+  position: relative;
+  vertical-align: top;
+}
