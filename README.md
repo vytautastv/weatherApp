@@ -1,16 +1,12 @@
 # Module 8 Server-Side APIs: Weather Dashboard
 
-## Your Task
+A weather app that lets a user input a country in the search field and be shown key weather metrics to allow them to plan a trip accordingly. 
 
-Server APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+## App Description
 
-Use the [5 Day Weather Forecast](https://openweathermap.org/forecast5) to retrieve weather data for cities. The link should take you to a guide on how to use the 5 Day Forecast API. You will need to register for an API key in order to use this API. After registering for a new API key, you may need to wait up to 2 hours for that API key to activate.
+This App will be used to complete the week 8 assignment for the edX front-end web development bootcamp. This app used a number of newly learned skills and functionality such as HTML, CSS, Javascript, Jquery, Bootstrap, APis and more. The weather app will allow a user to to input any country in the search area and be shown key information such as temperature, humidity, wind speeds and includes varied images to showcase the weather of the chosen country. 
 
-The base URL for your API calls should look like the following: `https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}`.
-
-**Hint**: Using the 5 Day Weather Forecast API, you'll notice that you will need to pass in coordinates instead of just a city name. Using the OpenWeatherMap APIs, how could we retrieve geographical coordinates given a city name?
-
-You will use `localStorage` to store any persistent data. For more information on how to work with the OpenWeather API, refer to the [Full-Stack Blog on how to use API keys](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys).
+The motivation for this app was to test my skills that have be acquired throughout the bootcamp and to create a fully functional app. 
 
 ## User Story
 
@@ -38,23 +34,21 @@ SO THAT I can plan a trip accordingly
     * The humidity
   * When a user click on a city in the search history they are again presented with current and future conditions for that city
 
-## Mock-Up
+## Finished App
 
-The following image shows the web application's appearance and functionality:
+The following image shows the finished application:
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for London.](./assets/10-server-side-apis-challenge-demo.png)
+![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions](./assets/screencapture-127-0-0-1-5500-index-html-2023-12-28-12_17_43.png/10-server-side-apis-challenge-demo.png)
+
+Please access the Github repository using the following link: https://github.com/vytautastv/weatherApp
+
+Please access the live app using Github pages with the following link: https://vytautastv.github.io/weatherApp/
+
+## Usage
+
+Please use the provided links to the Github repo or the live site to access the application. You may enter any country name and be shown weather report data for the chosen country. 
 
 ## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
 
 This Challenge is graded based on the following criteria:
 
@@ -100,9 +94,9 @@ This Challenge is graded based on the following criteria:
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+* The URL of the functional, deployed application. https://vytautastv.github.io/weatherApp/ 
 
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
+* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project. https://github.com/vytautastv/weatherApp
 
 ---
 
